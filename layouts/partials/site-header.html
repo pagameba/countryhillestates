@@ -1,0 +1,11 @@
+<header class="" style="background-color: #cceeff; margin-bottom: 20px;">
+  <div class="container">
+    {{ partial "site-navigation.html" .}}
+  </div>
+  <div class="container" style="padding-top: 40px; padding-bottom: 40px">
+    <h2 class="font-weight-light">{{ .Site.Title }}</h2>
+    {{ with .Site.Params.description }}
+    <h6 class="font-weight-light text-muted">{{ . }}</h6>
+    {{ end }}
+  </div>
+</header>

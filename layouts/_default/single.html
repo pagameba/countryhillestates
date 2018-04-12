@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <div class="">
+    <article class="">
+      <header style="padding: 20px 0;">
+        <h2 class="font-weight-light">
+          {{ .Title }}
+        </h2>
+        <img class="img-thumbnail rounded float-right" src="{{ .Params.image  | absURL }}" style="max-width: 300px; margin-top: -40px">
+      </header>
+      <div class="">
+        {{ .Content }}
+      </div>
+    </article>
+  </div>
+{{ end }}

@@ -1,0 +1,26 @@
+{{ define "main" }}
+  <div class="">
+    <article class="">
+      <p class="">
+        {{/* Humanize removes hyphens and capitalizes the first word */}}
+        {{ humanize .Section | upper  }}
+      </p>
+      <h1 class="">
+        {{ .Title }}
+      </h1>
+        {{/* TODO: Add Hugo author  */}}
+        {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
+      <time class="" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+        {{ .Date.Format "January 2, 2006" }}
+      </time>
+      <section class="">
+        {{ .Content }}
+      </section>
+      {{ .Table }}
+      {{ partial "tags.html" . }}
+    </article>
+    <div class="">
+      {{ partial "menu-contextual.html" . }}
+    </div>
+  </div>
+{{ end }}

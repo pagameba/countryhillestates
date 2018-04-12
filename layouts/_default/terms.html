@@ -1,0 +1,22 @@
+{{ define "main" }}
+    {{ $data := .Data }}
+  <article class="">
+    <div class="">
+      {{ .Content }}
+    </div>
+  </article>
+  <div class="">
+    <section class="">
+      {{ range $key, $value := .Data.Terms }}
+        <h2 class="">
+          <a href="{{ "/" | relLangURL }}{{ $.Data.Plural | urlize }}/{{ $key | urlize }}" class="">
+            {{ $.Data.Singular | humanize }}: {{ $key }}
+          </a>
+        </h2>
+        {{ range $value.Pages }}
+          {{ partial "summary.html" . }}
+        {{ end }}
+      {{ end }}
+    </section>
+  </div>
+{{ end }}

@@ -1,0 +1,15 @@
+  <div class="">
+    {{ if .Date }}
+      <div class="">
+        {{ .Date.Format "January 2, 2006" }}
+      </div>
+    {{ end }}
+    <h1 class="">
+      <a href="{{ .URL }}" class="">
+        {{ .Title }}
+      </a>
+    </h1>
+    <div class="">
+      {{ .Summary  }}
+    </div>
+  </div>

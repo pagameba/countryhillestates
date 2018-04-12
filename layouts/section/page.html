@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <article class="">
+  <main class="">
+    {{ .Content }}
+  </main>
+    {{ $section := .Paginate (where .Data.Pages "Section" .Section) }}
+    <section class="">
+      {{ range  $section.Pages }}
+        <div class="">
+          {{ .Render "summary" }}
+        </div>
+      {{ end }}
+    </section>
+    {{ template "_internal/pagination.html" . }}
+  </article>
+{{ end }}
