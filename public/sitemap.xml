@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://countryhillestates.ca/pages/</loc>
+    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://countryhillestates.ca/pages/association/</loc>
+    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://countryhillestates.ca/pages/bylaws/</loc>
+    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://countryhillestates.ca/pages/communications/</loc>
+    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://countryhillestates.ca/pages/contact-us/</loc>
+    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://countryhillestates.ca/pages/resources/</loc>
+    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://countryhillestates.ca/tags/</loc>
+    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://countryhillestates.ca/phases/</loc>
+  </url>
+  
+  <url>
+    <loc>http://countryhillestates.ca/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://countryhillestates.ca/</loc>
+  </url>
+  
+  <url>
+    <loc>http://countryhillestates.ca/phases/1/</loc>
+  </url>
+  
+  <url>
+    <loc>http://countryhillestates.ca/phases/2/</loc>
+  </url>
+  
+  <url>
+    <loc>http://countryhillestates.ca/phases/3/</loc>
+  </url>
+  
+  <url>
+    <loc>http://countryhillestates.ca/tags/phases/</loc>
+    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://countryhillestates.ca/tags/</loc>
+    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
