@@ -1,4 +1,4 @@
-baseURL = "http://countryhillestates.ca/"
+baseURL = "https://countryhillestates.netlify.com/"
 languageCode = "en-us"
 title = "Country Hill Estates"
 
