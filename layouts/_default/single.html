@@ -5,7 +5,7 @@
         <h2 class="font-weight-light">
           {{ .Title }}
         </h2>
-        <img class="img-thumbnail rounded float-right" src="{{ .Params.image  | absURL }}" style="max-width: 300px; margin-top: -40px">
+        <img class="img-thumbnail rounded float-right" src="{{ .Params.image  | relURL }}" style="max-width: 300px; margin-top: -40px">
       </header>
       <div class="">
         {{ .Content }}
